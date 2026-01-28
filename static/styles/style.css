@@ -115,6 +115,10 @@ section {
   background: #add9f7;
   padding: 60px 20px;
 }
+.hero-text .price {
+  font-size: 30px;
+  font-weight: 700;
+}
 
 .hero-inner {
   display: flex;
@@ -356,3 +360,4 @@ section {
 .view-btn:hover {
   opacity: 0.85;
 }
+
