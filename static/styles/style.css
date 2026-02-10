@@ -113,7 +113,7 @@ section {
 /* ===== HERO ===== */
 .hero {
   background: #add9f7;
-  padding: 60px 20px;
+
 }
 .hero-text .price {
   font-size: 30px;
@@ -126,7 +126,11 @@ section {
   margin: 0 auto;
   align-items: center;
   gap: 40px;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+}
+.hero-image {
+  display: flex;
+  justify-content: center;
 }
 
 .hero-image img {
@@ -360,4 +364,14 @@ section {
 .view-btn:hover {
   opacity: 0.85;
 }
+@media (max-width: 480px) {
+  .hero-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .order-main-btn {
+    font-size: 20px;
+  }
+}
+
 
